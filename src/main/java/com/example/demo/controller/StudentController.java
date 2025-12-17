@@ -47,4 +47,3 @@ public class StudentController {
     }
 
 }
-ran-mzts-mvq
