@@ -27,6 +27,6 @@ public class StudentController {
     }
      @GetMapping("/getStudent")
      public StudentEntity getStudentById(@PathVariable Long id){
-        return repo.findById(id)
+        return repo.getStudentById(id)
      }
 }
