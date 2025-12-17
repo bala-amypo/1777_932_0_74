@@ -29,4 +29,6 @@ public class StudentController {
      public StudentEntity getStudentById(@PathVariable Long id){
         return repo.getStudentById(id)
      }
+     @DeleteMapping("/deletStudent/{id}")
+     public String 
 }
